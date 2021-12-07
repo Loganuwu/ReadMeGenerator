@@ -1,8 +1,8 @@
 
   # Read Me Generator
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   ## Description
-  a readme generator using javascript and node.js
+  a readme generator using javascript with node.js https://www.youtube.com/watch?v=MtN1YnoL46Q&ab_channel=forrestfire101
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -11,16 +11,16 @@
   - [Tests](#Test-Instructions)
   - [Questions](#Questions)
   ## Installation
-  clone the github repo
+  clone github
   ## Usage
-  type ##node.js in your IDE terminal
+  type node.js in IDE terminal
   
   ## License
-  This project is covered under the MIT License
+  This project is covered under the Apache License 2.0
   ## Contributing
-  Please contribute
+  to contribute, fork the repository and send in your code for review
   ## Tests
-  run the node index.js file and try filling in the questions!
+  run index.js in the terminal and fill in your own answers
   ## Questions
   - What Language was this written in? - JavaScript
   - where is the live demo? - YouTube link in the description
