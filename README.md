@@ -1,8 +1,8 @@
 
-  # read me generator
-  [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+  # tes
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  a readme generator
+  ets
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -11,16 +11,16 @@
   - [Tests](#Test-Instructions)
   - [Questions](#Questions)
   ## Installation
-  clone github
+  ets
   ## Usage
-  type index.js in ide terminal
+  set
   
   ## License
-  This project is covered under the BSD 2-Clause "Simplified" License
+  This project is covered under the MIT License
   ## Contributing
-  to contribute, fork the repo
+  set
   ## Tests
-  run index.js and fill in your own answers
+  set
   ## Questions
   - What Language was this written in? - JavaScript
   - where is the live demo? - YouTube link in the description
