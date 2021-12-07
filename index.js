@@ -42,17 +42,8 @@ const questions = [
         filter(val) {
             return val.toLowerCase()
         }
-    },
-    {
-        type: 'input',
-        name: 'github_username',
-        message: 'Github Username: ',
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Email address: '
     }
+
 ];
 
 // List of licenses and their associated badge markdown

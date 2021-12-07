@@ -1,8 +1,8 @@
 
-  # Read Me Generator
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # read me generator
+  [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
   ## Description
-  a readme generator using javascript with node.js https://www.youtube.com/watch?v=MtN1YnoL46Q&ab_channel=forrestfire101
+  a readme generator
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -13,14 +13,14 @@
   ## Installation
   clone github
   ## Usage
-  type node.js in IDE terminal
+  type index.js in ide terminal
   
   ## License
-  This project is covered under the Apache License 2.0
+  This project is covered under the BSD 2-Clause "Simplified" License
   ## Contributing
-  to contribute, fork the repository and send in your code for review
+  to contribute, fork the repo
   ## Tests
-  run index.js in the terminal and fill in your own answers
+  run index.js and fill in your own answers
   ## Questions
   - What Language was this written in? - JavaScript
   - where is the live demo? - YouTube link in the description
