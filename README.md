@@ -1,8 +1,8 @@
 
-  # ReadMeGen
+  # Read Me Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  Super description
+  a readme generator using javascript and node.js
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -11,17 +11,17 @@
   - [Tests](#Test-Instructions)
   - [Questions](#Questions)
   ## Installation
-  index.js
+  clone the github repo
   ## Usage
-  run index.js
+  type ##node.js in your IDE terminal
   
   ## License
   This project is covered under the MIT License
   ## Contributing
-  download
+  Please contribute
   ## Tests
-  no terst
+  run the node index.js file and try filling in the questions!
   ## Questions
-  - Github is [loganuwu](https://github.com/loganuwu)
-  - Email is [loganandrewbarajas@gmail.com](loganandrewbarajas@gmail.com)
+  - What Language was this written in? - JavaScript
+  - where is the live demo? - YouTube link in the description
   
