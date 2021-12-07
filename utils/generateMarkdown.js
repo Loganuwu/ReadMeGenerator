@@ -12,7 +12,7 @@ function generateMarkdown(data, licenseList) {
   - [License](#License)
   - [Contributing](#Contributing)
   - [Tests](#Test-Instructions)
-  - [Questions](#Questions)
+  - [Contact](#Contact)
   ## Installation
   ${data.install_instructions}
   ## Usage
@@ -24,7 +24,7 @@ function generateMarkdown(data, licenseList) {
   ${data.contribution}
   ## Tests
   ${data.test_instructions}
-  ## Questions
+  ## Contact
   - Github is [${data.github_username}](https://github.com/${data.github_username})
   - Email is [${data.email}](${data.email})
   `;
