@@ -36,9 +36,9 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'licenseId',
-        message: 'Which license do you want?',
-        choices: ['meh'],
+        name: 'licenses',
+        message: 'pick a license',
+        choices: ['licenses'],
         filter(val) {
             return val.toLowerCase()
         }
@@ -74,9 +74,9 @@ function writeToFile(filename, data) {
     // Get the license object and badge string
     // based on the user's selected license
     for(let i = 0; i < licenseList.length; i++) {
-        if(data.licenseId === licenseList[i].spdx_id.toLowerCase()) {
+        if(data.licenses === licenseList[i].spdx_id.toLowerCase()) {
         data.license = licenseList[i]
-        data.badge = badges[data.licenseId]
+        data.badge = badges[data.licenses]
         break;
         }
     }
