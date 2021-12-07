@@ -12,7 +12,7 @@ function generateMarkdown(data, licenseList) {
   - [License](#License)
   - [Contributing](#Contributing)
   - [Tests](#Test-Instructions)
-  - [Contact](#Contact)
+  - [Questions](#Questions)
   ## Installation
   ${data.install_instructions}
   ## Usage
@@ -24,9 +24,9 @@ function generateMarkdown(data, licenseList) {
   ${data.contribution}
   ## Tests
   ${data.test_instructions}
-  ## Contact
-  - Github is [${data.github_username}](https://github.com/${data.github_username})
-  - Email is [${data.email}](${data.email})
+  ## Questions
+  - What Language was this written in? - JavaScript
+  - where is the live demo? - YouTube link in the description
   `;
 }
 
