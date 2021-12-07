@@ -37,7 +37,7 @@ const questions = [
     {
         type: 'list',
         name: 'licenses',
-        message: 'pick a license',
+        message: 'pick a license: ',
         choices: ['licenses'],
         filter(val) {
             return val.toLowerCase()
