@@ -46,7 +46,7 @@ const questions = [
 
 ];
 
-// List of licenses and their associated badge markdown
+// List of licenses from git
 const badges = {
   "agpl-3.0":     "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)",
   "apache-2.0":   "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
@@ -67,12 +67,11 @@ const badges = {
 
 let licenseList = []
 
+// this function collects license data and appends previous data
 function writeToFile(filename, data) {
     data.licenseName = {};
     data.badge = ""
     
-    // Get the license object and badge string
-    // based on the user's selected license
     for(let i = 0; i < licenseList.length; i++) {
         if(data.licenses === licenseList[i].spdx_id.toLowerCase()) {
         data.license = licenseList[i]
@@ -87,20 +86,17 @@ function writeToFile(filename, data) {
     });
 }
 
-// function to initialize program
+// function to axios get all licenses from a link
 function init() {
-    // First fetch the list of licenses from github api
     axios.get('https://api.github.com/licenses').then(res => {
         licenseList = res.data; 
 
-        // Add the licenses to the question choice array
         for(let i = 0; i < licenseList.length; i++) {
             questions[6].choices[i] = licenseList[i].spdx_id
         }
 
-        // Ask the user all the questions
+
         inquirer.prompt(questions).then(answers => {
-            // Once questions are answered, write it to file
             writeToFile("readme.md", answers)
         }).catch(err => {
             console.log("Error! " + err)
@@ -108,6 +104,7 @@ function init() {
     }).catch(err => {
         console.log(`Error getting list of licenses:  ${err}`)
     })
+    //fills list with all licenses through for loop and appends answer to readme
     
 }
 
